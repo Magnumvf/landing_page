@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    color: white;
+    height: 100px;
+    background-color: rgba(0,78,113,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.header__img{
+    display: flex;
+    justify-self: flex-start;
+    width: 100px;
+    height: 40px;
+}
+.header__button{
+    display: flex;
+    justify-self: flex-end;
+    color: white;
+    border-color: white;
+    background-color: rgba(232,124,37,255)
+}
